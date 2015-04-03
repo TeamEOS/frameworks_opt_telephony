@@ -4073,7 +4073,7 @@ public class RIL extends BaseCommands implements CommandsInterface {
       return response;
    }
 
-    private Object
+    protected Object
     responseRadioCapability(Parcel p) {
         int version = p.readInt();
         int session = p.readInt();
